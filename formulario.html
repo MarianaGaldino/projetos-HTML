@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Formulário de Contato </title>
+    <link rel='stylesheet' type='text/css' href='formulario.css'>
+    <meta charset=UTF-8>
+  </head> 
+    <body>
+      <div align=center>
+            <h2>Formulário de Contato e Cadastro</h2>
+            <img src=menina.png width=150 height=150>
+            <p>Gostaria de receber conteúdos exclusivos ou nos mandar alguma mensagem?<br>
+                Preencha os campos abaixo</p>
+            <nav>
+              <a href='index.html'><button>Home</button></a>
+            </nav>    
+            <hr>    
+              <form>
+                <table>
+                  <tr>
+                    <td><label for='nome'> Nome Completo</label></td>
+                    <td><input type='text' name='nome' id='nome' value=''></td>
+                  </tr> 
+                  <tr>
+                    <td> E-mail </td>
+                    <td>  <input type='email' name='email' id='email' value=''></td>
+                  </tr>
+                  <tr>
+                    <td><label for ='datanascimento'> Número de Telefone </label></td>
+                    <td><input type='tel' pattern='^?d2\d{4}[-\s]\d{4}$' placeholder='(XX) XXXX-XXXX'></td>
+                  </tr> 
+                  <tr>
+                    <td colspan="2" style='text-align:center;vertical-align:middle'> Sexo </td>
+                  </tr>
+                  <tr>
+                    <td><label for='FEM'>Feminino</label><input type='radio' name='sexo' id='FEM' value='FEM'/></td>
+                    <td><label for='MASC'>Masculino</label><input type='radio' name='sexo' id='MASC' value='MASC'/></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style='text-align:center;vertical-align:middle'><label for='temas'> Quais temas te interessam mais?</label></td>
+                  </tr>   
+                  <tr>
+                    <td><input type=checkbox name='temas' id='programacao' value=''>Programaçao</td>
+                    <td><input type=checkbox name='temas' id='ui_e_design' value=''>UI e Design</td>
+                  </tr>  
+                  <tr>  
+                    <td><input type=checkbox name='temas' id='carreiras' value=''>Carreiras</td>
+                    <td><input type=checkbox name='temas' id='pra_relaxar' value=''> Pra relaxar</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><input type=checkbox name='temas' id='novidades_tecnologicas' value=''>Novidades Tecnológicas</td>   
+                  </tr>
+                  <tr>
+                    <td colspan="2" style='text-align:center;vertical-align:middle'><label for='mensagem'>Mensagem<br></label>
+                  </td>
+                  <tr>
+                    <td colspan="2" style='text-align:center;vertical-align:middle'><textarea id='msg' rows='10' cols="40" maxlength='500'></textarea><br><br></td>
+                  </tr>
+                  <tr>
+                    <td style='text-align:center;vertical-align:middle'><input class='input1' type='submit' value='Enviar Dados'></td>
+                    <td style='text-align:center;vertical-align:middle'><input class='input2' type='reset' value='Limpar Campos'></td>
+                  </tr>
+                </table>             
+              </form>
+      </div>
+    </body>
+</html>
+        
+    
+

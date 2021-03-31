@@ -1,0 +1,36 @@
+h2{
+	font-family: OCR A Std, monospace;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 23px;
+	text-align: center;
+	background-color: #E8784A
+}
+button{
+  	color: white;
+  	padding: 10px;
+  	background-color:#E8784A;
+  	border-radius: 12px;
+  	border: none;
+  	font-family: OCR A Std, monospace;
+	font-weight: bold;
+}	
+
+.input1, .input2{
+	background: #E8784A;
+	color: white;
+	border-radius: 8px;
+  	border: none;
+  	font-family: OCR A Std, monospace;
+	font-weight: bold;
+}
+table{
+	font-family: OCR A Std, monospace;
+	font-weight: bold;
+	font-size: 15px;
+}
+p{
+	font-family: OCR A Std, monospace;
+	font-weight: bold;
+	font-size: 15px;
+}
